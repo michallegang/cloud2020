@@ -1,0 +1,17 @@
+package com.telecom.springcloud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+/**
+ * Date：2020-12-01 15:57
+ * Description：
+ */
+@SpringBootApplication
+@EnableEurekaClient
+public class StreamMQMain8801 {
+    public static void main(String[] args) {
+        SpringApplication.run(StreamMQMain8801.class,args);
+    }
+}
